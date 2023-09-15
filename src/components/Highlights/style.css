@@ -45,7 +45,7 @@
 
 .promo-text {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .promotion {

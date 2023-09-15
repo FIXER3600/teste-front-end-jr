@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Poppins:wght@300;400;500;600;700&display=swap");
 .card {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   flex-direction: column;
   width: 270px;
   height: 500px;

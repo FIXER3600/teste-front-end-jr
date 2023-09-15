@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+# VTEX - Teste Econverse Frontend Jr.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um guia básico para compilar, testar e executar o projeto **VTEX - Teste Econverse Frontend Jr.** desenvolvido em React com TypeScript.
 
-## Available Scripts
+Alternativamente, para visualizar o projeto feito sem precisar dele localmente, eis o link surge do projeto: https://vtex-guilherme.surge.sh/
+## Pré-requisitos
 
-In the project directory, you can run:
+Antes de começar, certifique-se de ter o seguinte instalado no sistema:
 
-### `npm start`
+- [Node.js](https://nodejs.org/) - O Node.js é necessário para executar o ambiente de desenvolvimento Node e npm (gerenciador de pacotes do Node).
+- [npm](https://www.npmjs.com/) - O npm é usado para instalar e gerenciar as dependências do projeto.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Instalação
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone este repositório para o seu sistema local:
 
-### `npm test`
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-seu-projeto.git
+2. Navegue até o diretório do projeto:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```bash
+    cd seu-projeto
+3. Instale as dependências do projeto usando npm:
 
-### `npm run build`
+    ```bash
+    npm install
+## Compilação
+1. Para compilar o projeto, execute o seguinte comando:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    npm run build
+Isso transpilará o código TypeScript para JavaScript e gerará os arquivos de saída no diretório build.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Testes
+1. Pode-se executar os testes do projeto usando o seguinte comando:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    npm test
+Este comando iniciará a suíte de testes e fornecerá informações sobre os resultados dos testes.
 
-### `npm run eject`
+### Execução
+1. Para iniciar o servidor de desenvolvimento e rodar o projeto em um navegador, use o seguinte comando:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ```bash
+    npm start
+Isso iniciará o servidor local e abrirá automaticamente o projeto no navegador padrão. Também pode-se acessar o projeto em http://localhost:3000.
+### 🤓📚 Desenvolvido por: 
+ <table>
+  <tr>
+    <td align="center"><a href="https://github.com/FIXER3600">
+      <img src="https://avatars.githubusercontent.com/u/47544503?v=4" style="border-radius: 50%" width="100px" alt="Imagem do perfil do Guilherme"/>
+      <br />
+      <sub><b>Guilherme de Oliveira Barros</b></sub>
+      <br />
+    </td>
+</table>
