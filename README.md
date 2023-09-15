@@ -15,11 +15,11 @@ Antes de começar, certifique-se de ter o seguinte instalado no sistema:
 1. Clone este repositório para o seu sistema local:
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-seu-projeto.git
+   git clone https://github.com/seu-usuario/teste-devjr-econverse.git
 2. Navegue até o diretório do projeto:
 
     ```bash
-    cd seu-projeto
+    cd teste-devjr-econverse
 3. Instale as dependências do projeto usando npm:
 
     ```bash
