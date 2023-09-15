@@ -1,6 +1,6 @@
 @import "../../pages/variables.scss";
 
-.productBoard{
+.product-board{
 padding-left: 30px;
 	width: 589.726px;
 height: 284px;
@@ -13,7 +13,7 @@ linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 94.04%),
  background-size: 1030px 508px;
  background-position: -10px -120px;
 }
-.titleBoard{
+.title-board{
 	color: #FFF;
 font-size: 40px;
 margin-top: 40px;
@@ -22,7 +22,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-.descriptionBoard{
+.description-board{
 	color:  #FFF;
 font-size: 16px;
 font-style: normal;
@@ -31,7 +31,7 @@ line-height: normal;
 margin-top: 10px;
 margin-bottom: 30px;
 }
-.checkButton{
+.check-button{
 	cursor: pointer;
 	background-color: $pinkColor;
 	color: #FFF;

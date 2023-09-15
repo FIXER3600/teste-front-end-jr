@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import './style.css';
+import React, { useState } from "react";
+import "./style.css";
 
 interface CarouselProps {
   slides: React.ReactNode[];

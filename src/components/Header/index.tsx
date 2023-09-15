@@ -1,4 +1,3 @@
-import * as React from "react";
 import Shield from "../../assets/icons/ShieldCheck.png";
 import Truck from "../../assets/icons/Truck.png";
 import Card from "../../assets/icons/CreditCard.png";
@@ -10,9 +9,7 @@ import Logo from "../../assets/logo.png";
 import Crown from "../../assets/icons/CrownSimple.png";
 import "./style.css";
 
-export interface IHeaderProps {}
-
-export default function Header(props: IHeaderProps) {
+export default function Header() {
   return (
     <header>
       <section className="top">
@@ -56,7 +53,6 @@ export default function Header(props: IHeaderProps) {
         <p>OFERTAS DO DIA</p>
 
         <p>
-          
           <img src={Crown} alt="Assinatura" className="icon" />
           ASSINATURA
         </p>

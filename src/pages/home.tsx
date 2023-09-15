@@ -93,24 +93,24 @@ export function Home() {
         <RowItem name="TVS" />
         <RowItem name="VER TODOS" />
       </div>
-      
+
       <div className="carousel">
-      <span onClick={prevSlide}>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="34"
-          viewBox="0 0 20 34"
-          fill="none"
-          cursor={'pointer'}
-        >
-          <path
-            d="M20 3.03939L16.9666 0L0 17L16.9666 34L20 30.9606L6.06684 17L20 3.03939Z"
-            fill="#3F3F40"
-          />
-        </svg>
-      </span>
-        <div className={`slide ${currentIndex !== 0 ? 'slide-animation' : ''}`}>
+        <span onClick={prevSlide}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="34"
+            viewBox="0 0 20 34"
+            fill="none"
+            cursor={"pointer"}
+          >
+            <path
+              d="M20 3.03939L16.9666 0L0 17L16.9666 34L20 30.9606L6.06684 17L20 3.03939Z"
+              fill="#3F3F40"
+            />
+          </svg>
+        </span>
+        <div className={`slide ${currentIndex !== 0 ? "slide-animation" : ""}`}>
           {renderProductsInSlide()}
 
           {selectedProduto && (
@@ -121,23 +121,23 @@ export function Home() {
         {selectedProduto && (
           <Modal selectedProduct={selectedProduto} closeModal={closeModal} />
         )}
-         <span onClick={nextSlide}>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="34"
-          viewBox="0 0 20 34"
-          fill="none"
-          cursor={'pointer'}
-        >
-          <path
-            d="M0 30.9606L3.03342 34L20 17L3.03342 0L0 3.03939L13.9332 17L0 30.9606Z"
-            fill="#3F3F40"
-          />
-        </svg>
-      </span>
+        <span onClick={nextSlide}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="34"
+            viewBox="0 0 20 34"
+            fill="none"
+            cursor={"pointer"}
+          >
+            <path
+              d="M0 30.9606L3.03342 34L20 17L3.03342 0L0 3.03939L13.9332 17L0 30.9606Z"
+              fill="#3F3F40"
+            />
+          </svg>
+        </span>
       </div>
-     
+
       <section className="product-content">
         <Partners />
         <Partners />
@@ -162,23 +162,59 @@ export function Home() {
         <BrandItem />
         <BrandItem />
         <BrandItem />
-        <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" viewBox="0 0 76 76" fill="none" cursor={'pointer'}>
-  <g filter="url(#filter0_d_1_1470)">
-    <circle cx="38" cy="34" r="28" fill="white"/>
-  </g>
-  <path d="M41.0096 33.8506L41.3545 33.5L41.0096 33.1494L32.7017 24.7029L34.664 22.7122L45.2979 33.5L34.664 44.2878L32.7017 42.2971L41.0096 33.8506Z" fill="#0080BF" stroke="white"/>
-  <defs>
-    <filter id="filter0_d_1_1470" x="0" y="0" width="76" height="76" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-      <feOffset dy="4"/>
-      <feGaussianBlur stdDeviation="5"/>
-      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.18 0"/>
-      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1470"/>
-      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1470" result="shape"/>
-    </filter>
-  </defs>
-</svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="76"
+          height="76"
+          viewBox="0 0 76 76"
+          fill="none"
+          cursor={"pointer"}
+        >
+          <g filter="url(#filter0_d_1_1470)">
+            <circle cx="38" cy="34" r="28" fill="white" />
+          </g>
+          <path
+            d="M41.0096 33.8506L41.3545 33.5L41.0096 33.1494L32.7017 24.7029L34.664 22.7122L45.2979 33.5L34.664 44.2878L32.7017 42.2971L41.0096 33.8506Z"
+            fill="#0080BF"
+            stroke="white"
+          />
+          <defs>
+            <filter
+              id="filter0_d_1_1470"
+              x="0"
+              y="0"
+              width="76"
+              height="76"
+              filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB"
+            >
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                result="hardAlpha"
+              />
+              <feOffset dy="4" />
+              <feGaussianBlur stdDeviation="5" />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.18 0"
+              />
+              <feBlend
+                mode="normal"
+                in2="BackgroundImageFix"
+                result="effect1_dropShadow_1_1470"
+              />
+              <feBlend
+                mode="normal"
+                in="SourceGraphic"
+                in2="effect1_dropShadow_1_1470"
+                result="shape"
+              />
+            </filter>
+          </defs>
+        </svg>
       </section>
       <Footer />
     </div>

@@ -1,15 +1,14 @@
-import * as React from 'react';
-import './style.css';
-export interface IProductsProps {
-	
-}
+import "./style.css";
 
-export default function Products (props: IProductsProps) {
+export default function Products() {
   return (
-    <div className='productBoard'>
-     <p className='titleBoard'>Produtos</p>
-     <p className='descriptionBoard'>Lorem ipsum dolor sit<br/> amet, consectetur</p>
-     <button className='checkButton'>CONFIRA</button>
+    <div className="product-board">
+      <p className="title-board">Produtos</p>
+      <p className="description-board">
+        Lorem ipsum dolor sit
+        <br /> amet, consectetur
+      </p>
+      <button className="check-button">CONFIRA</button>
     </div>
   );
 }
