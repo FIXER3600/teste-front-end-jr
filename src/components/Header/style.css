@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Poppins:wght@300;400;500;600;700&display=swap");
+.icon {
+  overflow: hidden;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 32px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.top p {
+  color: #9F9F9F;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.high {
+  color: #F71963;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.header input {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.logo {
+  padding-left: 50px;
+  padding-right: 100px;
+}
+
+#search {
+  flex: 1;
+  border: none;
+  padding: 12px 16px;
+  font-size: 16px;
+  outline: none;
+  height: 100%;
+  background-image: url("../../assets/icons/MagnifyingGlass.png");
+  background-color: #F6F5F2;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 28px;
+  border-radius: 10px;
+  margin: 12px;
+}
+
+.search-icon {
+  font-family: "Material Icons";
+  font-size: 20px;
+  padding: 6px;
+  color: #9F9F9F;
+  cursor: pointer;
+  border-radius: 24px 0 0 24px;
+  background-color: #F6F5F2;
+}
+
+.options img {
+  padding: 20px 20px;
+}
+
+.options img:first-child {
+  margin-left: 50px;
+}
+
+.options:hover {
+  cursor: pointer;
+}
+
+.category {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 12px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #9F9F9F;
+}
+.category p:hover {
+  color: #F71963;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

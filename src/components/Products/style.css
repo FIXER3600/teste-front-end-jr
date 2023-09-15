@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Poppins:wght@300;400;500;600;700&display=swap");
+.productBoard {
+  padding-left: 30px;
+  width: 589.726px;
+  height: 284px;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 1;
+  background: url("../../assets/image 45.png"), lightgray 50%/cover no-repeat;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 94.04%), url("../../assets/image 45.png");
+  background-size: 1030px 508px;
+  background-position: -10px -120px;
+}
+
+.titleBoard {
+  color: #FFF;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.descriptionBoard {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.checkButton {
+  cursor: pointer;
+  background-color: #F71963;
+  color: #FFF;
+  border-radius: 10px;
+  border: none;
+  width: 134.589px;
+  height: 48px;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 1.28px;
+}/*# sourceMappingURL=style.css.map */

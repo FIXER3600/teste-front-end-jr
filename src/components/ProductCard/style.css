@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Poppins:wght@300;400;500;600;700&display=swap");
+.card {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  width: 270px;
+  height: 500px;
+  padding-left: 5px;
+  margin: 20px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 3px 19px 0px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+}
+
+.card p {
+  margin: 5px;
+}
+
+.card img {
+  margin-bottom: 15px;
+  margin-top: 20px;
+  height: 228px;
+}
+
+#freight {
+  font-family: "Poppins", sans-serif;
+  color: #F71963;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 5px;
+}
+
+#description-card {
+  font-family: "Poppins", sans-serif;
+  color: #3F3F40;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+#old-value {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  color: #808080;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: line-through;
+  margin-left: 5px;
+}
+
+#price {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  color: #3F3F40;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 5px;
+}
+
+#portion {
+  font-family: "Poppins", sans-serif;
+  color: #3F3F40;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#button-card {
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-top: 10px;
+  text-align: center;
+  height: 44px;
+  background-color: #F71963;
+  color: #FFF;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+}/*# sourceMappingURL=style.css.map */

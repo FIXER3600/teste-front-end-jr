@@ -1,0 +1,30 @@
+/* Carousel.scss */
+.carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 600px;
+}
+.carousel .slide {
+  max-width: 100%;
+  height: auto;
+}
+.carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+}
+.carousel .prev {
+  left: 0;
+}
+.carousel .next {
+  right: 0;
+}/*# sourceMappingURL=style.css.map */
