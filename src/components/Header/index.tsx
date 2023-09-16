@@ -12,7 +12,8 @@ import "./style.css";
 export default function Header() {
   return (
     <header>
-      <section className="top">
+      <div className="top">
+      <section className="top-content">
         <p>
           <img src={Shield} alt="" className="icon" />
           Compra <span className="high">100% Segura</span>
@@ -26,7 +27,9 @@ export default function Header() {
           <span className="high">Parcele</span> suas compras
         </p>
       </section>
-
+      <div className="divider-header"></div>
+      
+     
       <section className="header">
         <span className="logo">
           <img src={Logo} alt="VTEX" />
@@ -43,7 +46,8 @@ export default function Header() {
           <img src={ShoppingCart} alt="Carrinho" />
         </div>
       </section>
-
+      <div className="divider-header"></div>
+      </div>
       <section className="category">
         <p>TODAS AS CATEGORIAS</p>
         <p>SUPERMERCADO</p>

@@ -14,11 +14,11 @@
 .title-board {
   color: #FFF;
   font-size: 40px;
-  margin-top: 40px;
   margin-bottom: 0;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-top: 60px;
 }
 
 .description-board {

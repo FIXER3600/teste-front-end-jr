@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Poppins:wght@300;400;500;600;700&display=swap");
 * {
   font-family: "Poppins", sans-serif;
@@ -56,8 +55,8 @@
 
 .divider {
   display: inline-block;
-  width: 30%; /* Largura da linha divisória */
-  border-top: 1px solid #DEDEDE; /* Estilo da linha divisória (pode personalizar a cor e o estilo) */
+  width: 30%;
+  border-top: 1px solid #DEDEDE;
   margin-top: 20px;
   margin-left: 30px;
   margin-right: 30px;
@@ -88,7 +87,6 @@ th {
   width: 20px;
 }
 
-/* Estilos gerais do modal */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -123,7 +121,7 @@ th {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 100%; /* 20px */
+  line-height: 100%;
   letter-spacing: 1px;
 }
 
@@ -189,7 +187,7 @@ th {
   font-style: normal;
   font-weight: 900;
   text-align: start;
-  line-height: 100%; /* 20px */
+  line-height: 100%;
   letter-spacing: 1px;
   margin: 0;
 }
@@ -200,7 +198,7 @@ th {
   font-size: 10px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150.5%; /* 15.05px */
+  line-height: 150.5%;
   letter-spacing: 0.5px;
   text-align: start;
   margin: 15px 0;
@@ -213,7 +211,7 @@ th {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 100%; /* 12px */
+  line-height: 100%;
   letter-spacing: 0.6px;
   margin-top: 0;
 }
@@ -237,10 +235,9 @@ th {
 }
 
 .increment-button {
-  margin-left: 8px; /* Espaçamento entre o input e o botão de incremento */
+  margin-left: 8px;
 }
 
-/* Estilos do conteúdo do modal */
 .modal-content {
   display: flex;
   justify-content: space-between;
@@ -249,7 +246,6 @@ th {
   padding: 16px;
 }
 
-/* Estilos da lista de produtos */
 ul {
   list-style: none;
   padding: 0;
@@ -259,7 +255,6 @@ li {
   margin: 8px 0;
 }
 
-/* Estilos do botão "Ver Detalhes" */
 .button-modal {
   background: #007bff;
   color: #fff;
@@ -284,7 +279,6 @@ li {
   top: 0;
 }
 
-/* Carousel.scss */
 .carousel {
   position: relative;
   display: flex;
@@ -292,36 +286,4 @@ li {
   justify-content: center;
   margin: 0 auto;
   max-width: 600px;
-}
-.carousel .slide {
-  display: flex;
-  justify-content: center;
-  transition: transform 0.5s ease-in-out;
-}
-.carousel #button-slide {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  outline: none;
-}
-.carousel .prev {
-  left: 0;
-  transform: translateY(-50%);
-}
-.carousel .next {
-  right: 0;
-  transform: translateY(-50%);
-}
-@keyframes slide-animation {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
 }/*# sourceMappingURL=style.css.map */

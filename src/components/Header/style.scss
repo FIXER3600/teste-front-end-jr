@@ -4,19 +4,32 @@
 	vertical-align: middle;
 	padding-right: 10px;
 }
-.top{
+.top-content{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	height: 32px;
-	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+	margin: 0;
 }
-.top p{
+.divider-header {
+	display: inline-block;
+	width: 95%;
+	border-top: 1px solid #F0F0F0; 
+	//margin-bottom: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.top-content p{
 	color:#9F9F9F;
 font-size: 12px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+margin: 0;
+}
+.top{
+	display: flex;
+	flex-direction: column;
 }
 .high{
 	color: $pinkColor;
@@ -32,7 +45,6 @@ line-height: normal;
 	line-height: normal;
 
 	}
-	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .logo{
 padding-left:50px;

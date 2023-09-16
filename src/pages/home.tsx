@@ -110,7 +110,7 @@ export function Home() {
             />
           </svg>
         </span>
-        <div className={`slide ${currentIndex !== 0 ? "slide-animation" : ""}`}>
+        <div className='product-list'>
           {renderProductsInSlide()}
 
           {selectedProduto && (
