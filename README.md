@@ -15,7 +15,7 @@ Antes de começar, certifique-se de ter o seguinte instalado no sistema:
 1. Clone este repositório para o seu sistema local:
 
    ```bash
- https://github.com/FIXER3600/teste-front-end-jr.git
+    https://github.com/FIXER3600/teste-front-end-jr.git
 2. Navegue até o diretório do projeto:
 
     ```bash
